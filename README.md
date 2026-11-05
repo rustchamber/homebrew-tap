@@ -1,15 +1,16 @@
 # RustChamber Homebrew tap
 
-Install [RustChamber](https://github.com/LipeMachado/rustchamber) with Homebrew:
+Install [RustChamber](https://github.com/rustchamber/rustchamber) with Homebrew:
 
 ```bash
-brew install --cask LipeMachado/tap/rustchamber
+brew install --cask rustchamber/tap/rustchamber
 ```
 
 Or tap the repository first:
 
 ```bash
-brew tap LipeMachado/tap
+brew tap rustchamber/tap
+brew trust --cask rustchamber/tap/rustchamber
 brew install --cask rustchamber
 ```
 
@@ -36,7 +37,7 @@ the "Apple could not verify" dialog. If RustChamber is already in `/Applications
 manual DMG install, adopt it once:
 
 ```bash
-brew install --cask --adopt LipeMachado/tap/rustchamber
+brew install --cask --adopt rustchamber/tap/rustchamber
 ```
 
 Builds are ad-hoc signed because the project does not ship an Apple Developer ID

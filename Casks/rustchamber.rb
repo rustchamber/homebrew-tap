@@ -2,10 +2,10 @@ cask "rustchamber" do
   version "0.0.1-alpha"
   sha256 "25ea0bb2da5b241b3f61d7571e15bfd51cc029ad100d280c77c7a666d40680cd"
 
-  url "https://github.com/LipeMachado/rustchamber/releases/download/v#{version}/RustChamber-#{version}-macos-universal.dmg"
+  url "https://github.com/rustchamber/rustchamber/releases/download/v#{version}/RustChamber-#{version}-macos-universal.dmg"
   name "RustChamber"
   desc "Native Rust desktop workspace for OpenCode"
-  homepage "https://github.com/LipeMachado/rustchamber"
+  homepage "https://github.com/rustchamber/rustchamber"
 
   depends_on macos: :big_sur
 
