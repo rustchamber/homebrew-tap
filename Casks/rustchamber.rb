@@ -13,7 +13,7 @@ cask "rustchamber" do
 
   postflight_steps do
     run "/usr/bin/xattr",
-        args: ["-dr", "com.apple.quarantine", "#{appdir}/RustChamber.app"],
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/RustChamber.app"],
         must_succeed: false
   end
 
