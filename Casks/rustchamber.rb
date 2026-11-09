@@ -1,6 +1,6 @@
 cask "rustchamber" do
-  version "0.2.9"
-  sha256 "060b8b84dac61ddc39a54acc06696554316d806dd6d1f2b86442fe9508fc452f"
+  version "0.2.10"
+  sha256 "168c11a6080d5f8522e4398372392571c6217ada9e4b41c0b163f0d53225ddc3"
 
   url "https://github.com/rustchamber/rustchamber/releases/download/v#{version}/RustChamber-#{version}-macos-universal.dmg"
   name "RustChamber"
